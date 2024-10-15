@@ -79,7 +79,7 @@ const playMusic = (track, pause = false) => {
 
 async function displayAlbums() {
   console.log("displaying albums");
-  let a = await fetch(`https://raw.githubusercontent.com/AdityaJoshiJ/Spotify-Clone/master/songs/`);
+  let a = await fetch(`https://github.com/AdityaJoshiJ/Spotify-Clone/tree/master/songs/`);
   let response = await a.text();
   let div = document.createElement("div");
   div.innerHTML = response;
